@@ -2,10 +2,10 @@ import React from 'react';
 import './Home.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Col, Row, Card, Button  } from 'react-bootstrap';
-import icon_mind from '../assets/images/icon_mind.svg';
-import icon_data from '../assets/images/icon_data.svg';
-import icon_proposal from '../assets/images/icon_proposal.svg';
-import icon_chat from '../assets/images/icon_chat.svg';
+import icon_html from '../assets/images/icon_html.svg';
+import icon_js from '../assets/images/icon_js.svg';
+import icon_react from '../assets/images/icon_react.svg';
+
 import about_img from '../assets/images/about_img.svg';
 import image1 from '../assets/images/image1.svg';
 import testi1 from '../assets/images/testi1.jpg';
@@ -55,39 +55,22 @@ const Home = () =>{
      
             <Container className="container-course">
                 <Card style={{ width: '18rem' }} className="card-course">
-                    <Card.Img variant="top" src={icon_mind} className="img-course"/>
                     <Card.Body>
-                        <Card.Title className="card-title">Computer Science</Card.Title>
-                        <Button variant="primary" className="card-button">Beli Course</Button>
+                        <Card.Title className="card-title">HTML &amp; CSS</Card.Title>
                     </Card.Body>
+                    <Card.Img variant="top" src={icon_html} className="img-course"/>
                 </Card>
                 <Card style={{ width: '18rem' }} className="card-course">
-                    <Card.Img variant="top" src={icon_data} className="img-course"/>
                     <Card.Body>
-                        <Card.Title className="card-title">Data Analisis and Statistic</Card.Title>
-                        <Button variant="primary">Beli Course</Button>
+                        <Card.Title className="card-title">Javascript ES6</Card.Title>                       
                     </Card.Body>
+                    <Card.Img variant="top" src={icon_js} className="img-course"/>
                 </Card>
                 <Card style={{ width: '18rem' }} className="card-course">
-                    <Card.Img variant="top" src={icon_proposal} className="img-course"/>
                     <Card.Body>
-                        <Card.Title className="card-title">Business and Management</Card.Title>
-                        <Button variant="primary">Beli Course</Button>
+                        <Card.Title className="card-title">React JS</Card.Title>                       
                     </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }} className="card-course">
-                    <Card.Img variant="top" src={icon_chat} className="img-course"/>
-                    <Card.Body>
-                        <Card.Title className="card-title">Social Sciences</Card.Title>
-                        <Button variant="primary">Beli Course</Button>
-                    </Card.Body>
-                </Card>
-                <Card style={{ width: '18rem' }} className="card-course">
-                    <Card.Img variant="top" src={icon_mind} className="img-course"/>
-                    <Card.Body>
-                        <Card.Title className="card-title">Biology and Life Sciences</Card.Title>
-                        <Button variant="primary">Beli Course</Button>
-                    </Card.Body>
+                    <Card.Img variant="top" src={icon_react} className="img-course"/>
                 </Card>
             </Container>
             </section>
@@ -104,55 +87,51 @@ const Home = () =>{
 
             <Col className="col-beasiswa">
                 <h1>Dapatkan 100% Beasiswa Tech Muda</h1>
-                <p>Program 100% Beasiswa dikhususkan untuk perempuan Indonesia</p>
-                <Button variant="primary" size="lg" active>
-                Lihat Persyaratan
-                </Button>{' '}
+                <p>Program 100% Beasiswa dikhususkan untuk perempuan Indonesia</p>  
             </Col>
             </Row>
         </Container>
         </section>
 
         <section className="section-video">
+        <h1 className="title-video">Graduation Day</h1>
         <Container className="container-video">
-            <h1>Graduation Tech Muda</h1>
-                
-                <iframe 
-                    src="https://www.youtube.com/embed/aVoRP0xuCLA" 
-                    title="YouTube video player" 
-                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
-                </iframe>    
+            <iframe 
+                src="https://www.youtube.com/embed/aVoRP0xuCLA" 
+                title="YouTube video player" 
+                frameborder="50px" allow="accelerometer; autoplay; clipboard-write; 
+                encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            </iframe>    
         </Container>
         </section>
         
         <section className="section-testimoni">
+        <h1 className="title-testimoni">Testimoni Alumni</h1>
             <Container className="container-testimoni">
-                <h1 style={{ marginTop: -300, paddingBottom: 100}}
->Testimoni</h1>
                 <Card style={{ width: '18rem' }}  className="card-testimoni">
                     <Card.Img variant="top" src={ testi1 } />
                     <Card.Body>
                         <Card.Title>Mawar</Card.Title>
                         <Card.Text>
-                        Great teaching, recommended teacher. Dan semua lulusannya "from zero to hero".
+                        Great teaching, recommended mentor. 
                         </Card.Text>
                     </Card.Body>
                 </Card> 
                 <Card style={{ width: '18rem' }} className="card-testimoni">
                     <Card.Img variant="top" src={ testi2 } />
                     <Card.Body>
-                        <Card.Title>Melati</Card.Title>
+                        <Card.Title>Jati</Card.Title>
                         <Card.Text>
-                        Great teaching, recommended teacher. Dan semua lulusannya "from zero to hero".
+                        Materi dan penjelasannya sangan mudah dipahami.
                         </Card.Text>
                     </Card.Body>
                 </Card> 
                 <Card style={{ width: '18rem' }} className="card-testimoni">
                     <Card.Img variant="top" src={ testi3 } />
                     <Card.Body>
-                        <Card.Title>Indah</Card.Title>
+                        <Card.Title>Melati</Card.Title>
                         <Card.Text>
-                        Great teaching, recommended teacher. Dan semua lulusannya "from zero to hero".
+                        Sangat membantu saya yang ingin berkarier di bidang teknologi
                         </Card.Text>
                     </Card.Body>
                 </Card> 
