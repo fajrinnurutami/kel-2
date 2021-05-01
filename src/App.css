@@ -1,0 +1,18 @@
+.navbar {
+  background-color: #3399cc;
+}
+
+.navbar-link {
+  margin-right: 30px;
+  color: #fff;
+  font-size: large;
+}
+
+.logo {
+  margin-left: 65px;
+  width: 100px;
+  border-radius: 15px;
+
+}
+
+
