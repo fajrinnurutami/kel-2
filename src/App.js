@@ -1,9 +1,11 @@
 // import logo from './logo.svg';
 import './App.css';
+import './Responsive.css'
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Button, Container, Row, Col } from 'react-bootstrap';
-import logo from './assets/images/logo.jpg'
+import logo from './assets/images/logo.jpg';
+
 
 //import Package React Router pada App.js
 import {
@@ -42,7 +44,7 @@ function App() {
               <Link to='/contact' className="navbar-link">Contact Us</Link>
               <Link to='/course' className="navbar-link">Course</Link>
               <Link to='/login' className="navbar-link">Login</Link>
-              <Link to='/register' className="navbar-link">Register</Link>
+              <Link to='/register' className="navbar-link">Daftar</Link>
             </Navbar.Text>
         </Navbar.Collapse>
       </Navbar>

@@ -1,3 +1,6 @@
+
+
+
 .navbar {
   background-color: #3399cc;
 }
@@ -6,13 +9,19 @@
   margin-right: 30px;
   color: #fff;
   font-size: large;
+  font-weight: 600;
 }
 
 .logo {
   margin-left: 65px;
   width: 100px;
   border-radius: 15px;
-
 }
 
 
+@media (max-width: 670) {
+
+  .navbar-link {
+    display: block;
+  }
+}

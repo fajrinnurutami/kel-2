@@ -1,0 +1,12 @@
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .logo {
+    margin-left: 10px;
+    width: 100px;
+    border-radius: 15px;
+  }
+
+  .navbar-link {
+    display: block;
+  }
+}

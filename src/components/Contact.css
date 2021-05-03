@@ -1,0 +1,41 @@
+.container-contact {
+    margin-top: 70px;
+}
+
+.col {
+    padding-top: 60px;
+}
+.form {
+    background-color: #ecf0f1;
+    padding: 40px;
+    justify-content: center;
+}
+.peta {
+    width: 30%;
+    height: 30%;
+}
+.img {
+    height: 35%;
+    padding: 20px;
+}
+.title {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    margin-top: 32px;
+    font-weight: normal;
+    color: #2b546a;
+}
+.text {
+    padding-left: 10px;
+}
+li {
+    list-style: none;
+}
+.fa {
+    color: blue;
+    margin: 10px;
+}
+FontAwesomeIcon {
+    padding: 30px;
+}

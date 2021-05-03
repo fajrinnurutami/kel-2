@@ -1,0 +1,21 @@
+.section-register {
+   
+    background-color: #f4f4ff;
+    height: 800px;
+}
+
+.section-register h1 {
+    padding-top: 120px;
+    text-align: center;
+    font-size: 25pt;
+}
+
+.container-login {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login {
+    margin: 20px;
+}

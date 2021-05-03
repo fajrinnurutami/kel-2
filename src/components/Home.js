@@ -5,15 +5,13 @@ import { Container, Col, Row, Card, Button  } from 'react-bootstrap';
 import icon_html from '../assets/images/icon_html.svg';
 import icon_js from '../assets/images/icon_js.svg';
 import icon_react from '../assets/images/icon_react.svg';
-
 import about_img from '../assets/images/about_img.svg';
 import image1 from '../assets/images/image1.svg';
 import testi1 from '../assets/images/testi1.jpg';
 import testi2 from '../assets/images/testi2.jpg';
 import testi3 from '../assets/images/testi3.jpg';
 import {useHistory} from 'react-router-dom';
-
-
+import Footer from '../components/Footer';
 
 const Home = () =>{
     const history = useHistory()
@@ -25,7 +23,7 @@ const Home = () =>{
                 <Col className="col-title">
                     <h1>Persiapkan Karier Kaum Muda</h1>
                     <p>Selamat datang di Tech Muda Course</p>
-                    <Button onClick={()=> history.push('/about')} variant="primary" size="lg" active>
+                    <Button onClick={()=> history.push('/login')} variant="primary" size="lg" active>
                     Siap untuk Memulai?
                     </Button>{''}
                 </Col>
@@ -122,7 +120,7 @@ const Home = () =>{
                     <Card.Body>
                         <Card.Title>Jati</Card.Title>
                         <Card.Text>
-                        Materi dan penjelasannya sangan mudah dipahami.
+                        Materi dan penjelasannya sangat mudah dipahami.
                         </Card.Text>
                     </Card.Body>
                 </Card> 
@@ -138,6 +136,7 @@ const Home = () =>{
             </Container>
             
         </section>
+        <Footer />
     </div>
     );
 }

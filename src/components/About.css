@@ -1,0 +1,19 @@
+.banner-about {
+    width: 100%;
+}
+
+.section-header {
+    padding-top: 75px;
+}
+
+.section-about-us h1 {
+    font-size: 35pt;
+    font-weight: 900;
+    text-align: center;
+  
+}
+
+.section-about-us p {
+    text-align: justify;
+    margin-bottom: 40px;
+}
