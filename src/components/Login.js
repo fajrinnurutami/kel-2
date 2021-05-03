@@ -29,14 +29,13 @@ const Login = () =>{
                     <Form.Group controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="Ingat saya" />
                     </Form.Group>
-                    <Button onClick={()=> history.push('/')} variant="primary" block active>
+                    <Button onClick={()=> history.push('/Course')} variant="primary" block active>
                     Masuk
                     </Button>{''}
                 </Form>
                 </Card>
             </Container>    
             </section>
-            <Footer />
         </div>
     );
 }

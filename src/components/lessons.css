@@ -1,0 +1,36 @@
+.container {
+    padding-top: 80px;
+    padding-left: 90px;
+    padding-right: 50px;
+}
+.img {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+.jdlLessons {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textDescrCourse {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.toggleLessons {
+    font-weight: bold;
+}
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container {
+        padding:0;
+        /* padding-left: 90px; */
+        /* padding-right: 50px; */
+    }
+    .descCourse {
+        padding: 30px;
+    }
+}

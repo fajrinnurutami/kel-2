@@ -1,0 +1,83 @@
+/* .img {
+    height: 35%;
+    padding: 20px;
+}
+.title {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-bottom: 0;
+    margin-top: 32px;
+    font-weight: normal;
+    color: #2b546a;
+} */
+
+.text {
+    padding: 10px;
+}
+.cont {
+    padding-top: 50px;
+}
+.cont h2 {
+    color: #2b546a;
+    padding: 70px;
+}
+
+li {
+    list-style: none;
+}
+.contCourse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: black;
+}
+.cardCourse:hover {
+    -webkit-box-shadow: 0px 20px 50px 0px rgba(11, 02, 55, 0.10);
+    box-shadow: 0px 20px 50px 0px rgba(11, 02, 55, 0.10);
+    background-color: #fff;
+    transform: scale(1.1); 
+    left: 0;
+    top: 0;
+    visibility: visible;
+    opacity: 1;
+    color: black;
+}
+Link {
+    color:black;
+}
+.cardCourse {
+    margin-right: 50px;
+    margin-bottom: 30px;
+    background-color: rgb(229, 230, 236);
+    margin: 20px;
+}
+.imgCourse {
+    height: 150px;
+   margin-bottom: 20px;
+}
+.cardTitle {
+    text-align: center;
+    font-size: 20px;
+}
+@media all and (max-width: 1000px) {
+  .cont {
+      margin: 0 auto;
+      padding: 10px;
+  }
+  .cardCourse{
+      width: 30%;
+      margin: 5px;
+  }
+  .imgCourse {
+      width: 10%;
+  }
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container {
+        padding:0;
+        /* padding-left: 90px; */
+        /* padding-right: 50px; */
+    }
+}

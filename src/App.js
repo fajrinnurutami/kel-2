@@ -4,7 +4,12 @@ import './Responsive.css'
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Navbar, Button, Container, Row, Col } from 'react-bootstrap';
-import logo from './assets/images/logo.jpg';
+import logo1 from './assets/images/logo1.png';
+import LessonsHTML from './components/lessonsHTML';
+import LessonsJavascript from './components/LessonsJava';
+import LessonsReact from './components/LessonsReact';
+import Footer from './components/Footer'
+
 
 
 //import Package React Router pada App.js
@@ -25,14 +30,14 @@ import Register from './components/Register';
 
 function App() {
   return (
-    <Router>
+    
       <div className="App">
-     
+     <Router>
       <Navbar className="navbar" expand="lg" fixed="top">
         <Navbar.Brand>
               <img
                   className="logo"
-                  src={logo}
+                  src={logo1}
                   alt="First slide"
               />
         </Navbar.Brand>
@@ -42,7 +47,7 @@ function App() {
               <Link to='/' className="navbar-link">Home</Link>
               <Link to='/about' className="navbar-link">About Us</Link>
               <Link to='/contact' className="navbar-link">Contact Us</Link>
-              <Link to='/course' className="navbar-link">Course</Link>
+              {/* <Link to='/course' className="navbar-link">Course</Link> */}
               <Link to='/login' className="navbar-link">Login</Link>
               <Link to='/register' className="navbar-link">Daftar</Link>
             </Navbar.Text>
@@ -56,9 +61,19 @@ function App() {
         <Route path="/course"><Course /> </Route>
         <Route path="/login"><Login /> </Route>
         <Route path="/register"><Register /> </Route>
+        <Route path="/LessonsHTML">
+                <LessonsHTML />
+              </Route>
+              <Route path="/LessonsJava">
+                <LessonsJavascript />
+              </Route>
+              <Route path="/LessonsReact">
+                <LessonsReact />
+              </Route>
       </Switch>
-      </div>
+     
     </Router>
+    </div>
   );
 }
 

@@ -17,12 +17,12 @@ const Home = () =>{
     const history = useHistory()
     return (
         <div>
-            <section className="section-header">
+            <section className="section-header-home">
             <Container>
             <Row>
                 <Col className="col-title">
-                    <h1>Persiapkan Karier Kaum Muda</h1>
-                    <p>Selamat datang di Tech Muda Course</p>
+                    <h1>Hi, Let's Study Hard!</h1>
+                    <p>Mari Kita Belajar Bersama-Sama</p>
                     <Button onClick={()=> history.push('/login')} variant="primary" size="lg" active>
                     Siap untuk Memulai?
                     </Button>{''}
@@ -44,9 +44,6 @@ const Home = () =>{
                     <Col className="col-course">
                         <h1>Jelajahi</h1>
                         <h3>Kursus Terpopuler Kami</h3>
-                    </Col>
-                    <Col className="col-course">
-                        <p>Jelajahi kursus online</p>
                     </Col>
                 </Row>
             </Container>
@@ -72,24 +69,6 @@ const Home = () =>{
                 </Card>
             </Container>
             </section>
-
-            <section className="section-beasiswa">
-            <Container>
-            <Row>
-            <Col>
-                <img
-                    className="banner"
-                    src={about_img}
-                />
-            </Col>
-
-            <Col className="col-beasiswa">
-                <h1>Dapatkan 100% Beasiswa Tech Muda</h1>
-                <p>Program 100% Beasiswa dikhususkan untuk perempuan Indonesia</p>  
-            </Col>
-            </Row>
-        </Container>
-        </section>
 
         <section className="section-video">
         <h1 className="title-video">Graduation Day</h1>
@@ -136,7 +115,6 @@ const Home = () =>{
             </Container>
             
         </section>
-        <Footer />
     </div>
     );
 }

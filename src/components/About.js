@@ -4,7 +4,7 @@ import { Image, Container, Card } from 'react-bootstrap';
 import header_about_us from '../assets/images/header_about_us.jpg';
 import aminah from '../assets/images/aminah.jpg';
 import fajrin from '../assets/images/fajrin.jpg';
-import profile3 from '../assets/images/profile3.png';
+import putri from '../assets/images/putri.jpg';
 import Footer from '../components/Footer';
 
 const About = () =>{
@@ -20,8 +20,14 @@ const About = () =>{
       <section className="section-about-us">
          <Container>
             <h1>About Us</h1>
-            <p>Proses program berlangsung dari tahun 2019 sampai dengan 2020, program ini bertujuan untuk memberikan pelatihan Informasi Teknologi dan kesempatan bekerja untuk 150 peserta dengan komposisi 70% adalah wanita dan pencapaian 80% mendapatkan pekerjaan. Salah satu komponen penting dari proyek Tech Muda adalah Pelatihan IT untuk kaum muda marjinal, terutama kaum muda perempuan, yang berkelanjutan. Program Tech Muda mempunyai tujuan untuk membuka peluang kerja untuk peserta Tech Muda, membuka peluang kerja mandiri (Gig Economy) untuk peserta Tech Muda.
+            <p>Dalam menghadapai era digital dan sistem pembelajaran saat ini sudah sangat berubah. 
+            Dari pembelajaran yang dulu hanya bisa dilakukan dengan tatap muka, dan sekarang dilakukan serba online.</p>
+
+            <p>
+            Kilar Academy hadir untuk menjawab tantangan belajar saat kini. Pada website ini, anda bisa mengakses materi tanpa batas dalam meningkatkan keterampilan belajar bahasa pemrograman
             </p>
+
+
         </Container>
 
         <Container className="container-testimoni">
@@ -38,16 +44,15 @@ const About = () =>{
                 </Card.Body>
             </Card> 
             <Card style={{ width: '18rem' }} className="card-testimoni">
-                <Card.Img variant="top" src={ profile3 } />
+                <Card.Img variant="top" src={ putri } />
                 <Card.Body>
-                    <Card.Title>Putri Rohmayati</Card.Title>
+                    <Card.Title>Putri Rokhmayati</Card.Title>
 
                 </Card.Body>
             </Card> 
         </Container>
        
         </section>
-        <Footer />
   </div>
     );
 }

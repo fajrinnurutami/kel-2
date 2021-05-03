@@ -1,9 +1,11 @@
 import React from 'react';
 import './Register.css';
 import { Form, Button, Container, Card } from 'react-bootstrap';
+import {useHistory} from 'react-router-dom';
 import Footer from '../components/Footer';
 
 const Register = () =>{
+    const history = useHistory()
     return (
         <div>
             <section className="section-register">
@@ -47,14 +49,13 @@ const Register = () =>{
                     <Form.Group controlId="formBasicCheckbox">
                         <Form.Check type="checkbox" label="saya setuju dengan kebijakan syarat &amp; ketentuan dan kebijakan privasi" />
                     </Form.Group>
-                    <Button variant="primary" type="submit" block>
-                        Daftar
-                    </Button>
+                    <Button onClick={()=> history.push('/login')} variant="primary" block active>
+                    Daftar
+                    </Button>{''}
                 </Form>
                 </Card>
             </Container>    
             </section>
-            <Footer />
         </div>
     );
 }

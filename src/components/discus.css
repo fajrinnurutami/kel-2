@@ -1,0 +1,26 @@
+.chat {
+    padding-top: 15px;
+}
+.list {
+    width: 50%;
+    margin: 10px;
+}
+.inputDiscus {
+    padding-left:  10px;
+}
+.btnDiscus {
+    float: right ;
+    margin-bottom: 30px ;
+    background-color: #5838fc;
+    color: #fff;
+}
+@media all and (max-width: 1000px) {
+}
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .container {
+        padding:0;
+        /* padding-left: 90px; */
+        /* padding-right: 50px; */
+    }
+}
